@@ -1,0 +1,66 @@
+<style type="text/css">
+	/* estilo principal*/
+	index	{}
+	*	{margin: 0;
+		padding: 0;}
+	/* divisiones */
+	#uno	{width: 70%;
+		margin: 0 auto;
+		box-shadow: #00408F 2px 2px 3px 3px;
+		background-color: rgba(255, 255, 255, 0.5);}
+	#dos	{width: 70%;
+		margin: 0 auto;
+		box-shadow: #00408F 2px 2px 3px 3px;
+		background-color: rgba(255, 255, 255, 0.5);}
+	#tre	{width: 70%;
+		margin: 0 auto;
+		background-color: rgba(170, 170, 170, 0.5);
+		border: 1px solid black;}
+	#nop	{margin: 0 auto;
+		width: 80%;}
+	/* clases*/
+	.bc li	{list-style: none;
+		margin: 2px;}
+	.bc li a	{display: block;
+			background-color: #FF9F9F;
+			color: black;
+			text-decoration: none;
+			padding: 10px 15px;
+			transition: 0.7s;}
+	.bc > li:hover	{box-shadow: #E18E00 2px 2px 2px;
+			background-color: pink;}
+	.bc li a:hover	{transition: 0.7s;
+			background-color: pink;
+			color: black;
+			text-decoration: none;}
+	.bc > li 	{float: left;}
+	.bc li ul	{display: none;
+			position: absolute;
+			min-width: 17px;}
+	.bc li:hover > ul	{display: block;}
+	.bc li ul li {position: relative;
+			transition: 0.7s}
+	.bc li ul li ul {right: -190px;
+			top: 0px;}
+	.bc li ul li:hover	{transition: 0.7s;
+				background-color: pink;
+				box-shadow: #E18E00 2px 2px}
+	.zi	{transition: 0.9s;}
+	.zi:hover	{transition: 0.5s;
+			transform: scale(1.1);}
+	.mov	{transition: 0.9s;}
+	.mov:hover	{transition: 0.5s;
+			transform: scaleX(1.1);}
+	/*etiquetas hereditarias*/
+	/* etiquetas normales */
+	nom	{color: #000000;
+		font-family: Imprint MT Shadow;}
+	nom:hover	{color: #B404AE;}
+	chbr	{color: #000000;
+		font-family: Comic Sans MS;}
+	pie	{color: black;
+		transition: 1s;}
+	pie:hover	{color: #00408F;
+			text-decoration: underline;
+			transition: 1s;}
+</style>
